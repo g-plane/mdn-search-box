@@ -259,8 +259,8 @@
 
     function add_css() {
     	var style = element("style");
-    	style.id = "svelte-cqluxd-style";
-    	style.textContent = ".form.svelte-cqluxd.svelte-cqluxd{position:relative;display:inline-block;margin-right:80px}.form.svelte-cqluxd label.svelte-cqluxd{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.input-field.svelte-cqluxd.svelte-cqluxd{border:2px solid #212121;-webkit-appearance:none;color:#212121;min-width:320px;padding:6px 12px;width:100%;letter-spacing:-0.0027777778rem;font-size:16px}.input-field.svelte-cqluxd.svelte-cqluxd:focus,.input-field.svelte-cqluxd.svelte-cqluxd:invalid{outline:none;box-shadow:none}.button.svelte-cqluxd.svelte-cqluxd{background:#fff url(https://developer.mozilla.org/static/media/search.db31d27c.svg) 0 0 no-repeat;height:21px;padding:12px;position:absolute;right:8px;top:0px;width:21px;border:0;cursor:pointer}";
+    	style.id = "svelte-qzfh00-style";
+    	style.textContent = ".form.svelte-qzfh00.svelte-qzfh00{position:relative;display:inline-block;margin-right:80px}.form.svelte-qzfh00 label.svelte-qzfh00{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.input-field.svelte-qzfh00.svelte-qzfh00{border:2px solid #212121;color:#212121;min-width:320px;padding:6px 12px;width:100%;letter-spacing:-0.0027777778rem;font-size:16px}.input-field.svelte-qzfh00.svelte-qzfh00:focus,.input-field.svelte-qzfh00.svelte-qzfh00:invalid{outline:none;box-shadow:none}.button.svelte-qzfh00.svelte-qzfh00{background:#fff url(https://developer.mozilla.org/static/media/search.db31d27c.svg) 0 0 no-repeat;height:21px;padding:12px;position:absolute;right:8px;top:0px;width:21px;border:0;cursor:pointer}";
     	append(document.head, style);
     }
 
@@ -271,12 +271,12 @@
     		c() {
     			form = element("form");
 
-    			form.innerHTML = `<label for="main-q" class="svelte-cqluxd">Search MDN</label> 
-  <input type="search" name="q" class="input-field svelte-cqluxd" placeholder="Search MDN" pattern="(.|\s)*\S(.|\s)*" required=""/> 
-  <input type="submit" class="button svelte-cqluxd" aria-label="Search" value=""/>`;
+    			form.innerHTML = `<label for="main-q" class="svelte-qzfh00">Search MDN</label> 
+  <input type="search" name="q" class="input-field svelte-qzfh00" placeholder="Search MDN" pattern="(.|\s)*\S(.|\s)*" required=""/> 
+  <input type="submit" class="button svelte-qzfh00" aria-label="Search" value=""/>`;
 
     			attr(form, "action", "https://developer.mozilla.org/en-US/search");
-    			attr(form, "class", "form svelte-cqluxd");
+    			attr(form, "class", "form svelte-qzfh00");
     			attr(form, "role", "search");
     		},
     		m(target, anchor) {
@@ -294,7 +294,7 @@
     class Form extends SvelteComponent {
     	constructor(options) {
     		super();
-    		if (!document.getElementById("svelte-cqluxd-style")) add_css();
+    		if (!document.getElementById("svelte-qzfh00-style")) add_css();
     		init(this, options, null, create_fragment, safe_not_equal, {});
     	}
     }
