@@ -9,7 +9,7 @@
     name="q"
     class="input-field"
     placeholder="Search MDN"
-    pattern="(.|\s)*\S(.|\s)*"
+    pattern="(.|\\s)*\\S(.|\\s)*"
     required
   />
   <input type="submit" class="button" aria-label="Search" value="" />
