@@ -1,14 +1,16 @@
 {
   "name": "mdn-search-box",
   "version": "0.1.0",
-  "description": "",
+  "description": "Add search box to \"mdn.dev\"",
   "scripts": {
     "fmt": "prettier --write --plugin-search-dir=. *.js src",
+    "fmt:check": "prettier --check --plugin-search-dir=. *.js src",
     "build": "rollup -c",
     "dev": "rollup -c -w"
   },
   "author": "Pig Fang",
   "license": "MIT",
+  "private": true,
   "devDependencies": {
     "@gplane/tsconfig": "^4.2.0",
     "@rollup/plugin-node-resolve": "^11.2.0",
