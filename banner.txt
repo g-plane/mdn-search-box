@@ -1,0 +1,12 @@
+// ==UserScript==
+// @name         MDN Search Box
+// @namespace    https://gplane.win/
+// @version      <version>
+// @description  Add search box to "mdn.dev"
+// @author       Pig Fang
+// @homepage     https://github.com/g-plane/mdn-search-box
+// @match        https://mdn.dev/
+// @grant        none
+// ==/UserScript==
+
+/* eslint-disable */

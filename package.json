@@ -1,0 +1,28 @@
+{
+  "name": "mdn-search-box",
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "fmt": "prettier --write --plugin-search-dir=. *.js src",
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "author": "Pig Fang",
+  "license": "MIT",
+  "devDependencies": {
+    "@gplane/tsconfig": "^4.2.0",
+    "@rollup/plugin-node-resolve": "^11.2.0",
+    "@rollup/plugin-typescript": "^8.2.0",
+    "@types/node": "^14.14.31",
+    "prettier": "^2.2.1",
+    "prettier-plugin-svelte": "^2.1.6",
+    "rollup": "^2.39.1",
+    "rollup-plugin-svelte": "^7.1.0",
+    "sass": "^1.32.8",
+    "svelte": "^3.34.0",
+    "svelte-preprocess": "^4.6.9",
+    "tslib": "^2.1.0",
+    "typed-query-selector": "^2.4.1",
+    "typescript": "^4.2.2"
+  }
+}

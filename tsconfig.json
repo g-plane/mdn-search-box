@@ -1,0 +1,9 @@
+{
+  "extends": "@gplane/tsconfig",
+  "compilerOptions": {
+    "declaration": false,
+    "declarationMap": false,
+    "sourceMap": false,
+    "types": ["svelte", "typed-query-selector", "node"]
+  }
+}
