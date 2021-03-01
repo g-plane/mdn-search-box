@@ -272,7 +272,7 @@
     			form = element("form");
 
     			form.innerHTML = `<label for="main-q" class="svelte-qzfh00">Search MDN</label> 
-  <input type="search" name="q" class="input-field svelte-qzfh00" placeholder="Search MDN" pattern="(.|\s)*\S(.|\s)*" required=""/> 
+  <input type="search" name="q" class="input-field svelte-qzfh00" placeholder="Search MDN" pattern="(.|\\s)*\\S(.|\\s)*" required=""/> 
   <input type="submit" class="button svelte-qzfh00" aria-label="Search" value=""/>`;
 
     			attr(form, "action", "https://developer.mozilla.org/en-US/search");
