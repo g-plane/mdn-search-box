@@ -35,7 +35,6 @@
 
   .input-field {
     border: 2px solid #212121;
-    -webkit-appearance: none;
     color: #212121;
     min-width: 320px;
     padding: 6px 12px;
