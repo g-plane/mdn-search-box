@@ -1,6 +1,6 @@
 {
   "name": "mdn-search-box",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Add search box to \"mdn.dev\"",
   "scripts": {
     "fmt": "prettier --write --plugin-search-dir=. *.js src",
