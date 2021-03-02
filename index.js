@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         MDN Search Box
 // @namespace    https://gplane.win/
-// @version      0.1.0
+// @version      0.1.1
 // @description  Add search box to "mdn.dev"
 // @author       Pig Fang
 // @homepage     https://github.com/g-plane/mdn-search-box
